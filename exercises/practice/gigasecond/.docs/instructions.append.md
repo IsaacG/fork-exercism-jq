@@ -1,4 +1,6 @@
-# placeholder
+# Instructions append
+
+## Implementation
 
 To solve this exercise in jq, you will need to use the [builtin datetime functions][date-funcs].
 
