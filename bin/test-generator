@@ -101,7 +101,7 @@ def generate(specs: pathlib.Path, exercise: pathlib.Path) -> None:
         load bats-jq"""
     )
     data = {
-        "cases": list(enumerate(cases)),
+        "cases": cases,
         "header": header,
         "solution": json.loads((exercise / ".meta/config.json").read_text())["files"]["solution"][0]
     }
